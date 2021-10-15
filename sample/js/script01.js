@@ -2,8 +2,8 @@ $(function(){
     
     let txt1 ="おはようございます！"
     let txt2 ="おげんきですか？"
-    let num1 = 20;
-    let num2 = 32;
+    let num1 = 52;
+    let num2 = 48;
 
     function sayHello(){
     $("#content").text("こんにちは！");
@@ -14,7 +14,7 @@ $(function(){
     }
 
     function samTwo (arg1, arg2){
-     $("#content"). text(arg1 + arg2);
+     $("#content"). append(arg1 + arg2);
     }
 
 
